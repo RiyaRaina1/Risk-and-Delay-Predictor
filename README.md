@@ -13,16 +13,16 @@ The system continuously evaluates key project KPIs and generates an explainable 
 Project delays are often identified only after major losses occur. Organizations lack a real-time monitoring system that evaluates project health dynamically.
 
 This system solves that problem by providing:
-Continuous KPI monitoring
-Early risk detection
-Explainable risk scoring
-Historical trend analysis
+- Continuous KPI monitoring
+- Early risk detection
+- Explainable risk scoring
+- Historical trend analysis
 
 ---
 
 ## 🧠 Core Algorithm
 
-The system uses a *Weighted Multi-Factor Risk Scoring Model* based on Multi-Criteria Decision Making (MCDM).
+The system uses a **Weighted Multi-Factor Risk Scoring Model** based on Multi-Criteria Decision Making (MCDM).
 
 ### Risk Formula:
 
@@ -30,46 +30,46 @@ Risk Score = Σ (Weight_i × Normalized KPI_i)
 
 ### KPIs Used:
 
-Completion Rate
-Blockers Count
-Open Bugs
-Scope Change (%)
-Average Cycle Time
-Velocity Trend (previous vs current progress)
+- Completion Rate
+- Blockers Count
+- Open Bugs
+- Scope Change (%)
+- Average Cycle Time
+- Velocity Trend (previous vs current progress)
 
 Each KPI is normalized between 0 and 1 and assigned a domain-driven weight.
 
 ### Risk Classification:
 
-0 – 39 → Low Risk
-40 – 69 → Medium Risk
-70 – 100 → High Risk
+- 0 – 39 → Low Risk
+- 40 – 69 → Medium Risk
+- 70 – 100 → High Risk
 
 ---
 
 ## 📊 Features
 
-Real-Time KPI Dashboard
-Automated Risk Score Calculation
-Historical Trend Analysis
-Explainable Risk Breakdown
-CSV Report Export
-SQLite Database Storage
-Lightweight & Fast Execution
+- Real-Time KPI Dashboard
+- Automated Risk Score Calculation
+- Historical Trend Analysis
+- Explainable Risk Breakdown
+- CSV Report Export
+- SQLite Database Storage
+- Lightweight & Fast Execution
 
 ---
 
 ## 🏗 Tech Stack
 
 ### Backend:
-Python
-Flask
-SQLite
+- Python
+- Flask
+- SQLite
 
 ### Frontend:
-HTML
-CSS
-Chart.js
+- HTML
+- CSS
+- Chart.js
 
 ---
 
@@ -126,30 +126,30 @@ http://127.0.0.1:5000
 
 ## 📌 How to Use
 
-Create a new project
-Add periodic metric snapshots
-System calculates real-time risk score
-View dashboard and trend charts
-Export historical report (CSV)
+1. Create a new project
+2. Add periodic metric snapshots
+3. System calculates real-time risk score
+4. View dashboard and trend charts
+5. Export historical report (CSV)
 
 ---
 
 ## 🔮 Future Improvements
 
-Machine Learning Integration (Random Forest / Logistic Regression)
-Time-Series Forecasting (LSTM)
-Email Alert System
-Cloud Deployment
-Role-Based Authentication
+- Machine Learning Integration (Random Forest / Logistic Regression)
+- Time-Series Forecasting (LSTM)
+- Email Alert System
+- Cloud Deployment
+- Role-Based Authentication
 
 ---
 
 ## 🏆 Hackathon Value
 
-Demonstrates applied analytics
-Fully explainable risk model
-Real-time monitoring system
-End-to-end working web application
+- Demonstrates applied analytics
+- Fully explainable risk model
+- Real-time monitoring system
+- End-to-end working web application
 
 ---
 
